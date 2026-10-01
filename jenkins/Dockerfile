@@ -6,5 +6,5 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 USER jenkins
-RUN jenkins-plugin-cli --plugins git workflow-aggregator junit
+RUN jenkins-plugin-cli --plugins git workflow-aggregator junit pipeline-stage-view
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
