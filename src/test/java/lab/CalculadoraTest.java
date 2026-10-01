@@ -8,6 +8,6 @@ class CalculadoraTest {
 
     @Test
     void sumaDosNumeros() {
-        assertEquals(6, new Calculadora().sumar(2, 3));
+        assertEquals(5, new Calculadora().sumar(2, 3));
     }
 }
